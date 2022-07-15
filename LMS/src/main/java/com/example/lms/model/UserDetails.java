@@ -15,19 +15,19 @@ import java.util.Objects;
 @Setter
 @ToString
 @NoArgsConstructor
-@Table(name = "user_details")
+//@Table(name = "user_details")
 public class UserDetails {
 
     @Id
 //    @GeneratedValue(strategy = GenerationType.AUTO)
     private int userId;
-    @Column(name = "user_Name")
+//    @Column(name = "user_Name")
     private String userName;
-    @Column(name = "email_Id")
+//    @Column(name = "email_Id")
     private String emailId;
-    @Column(name = "password")
+//    @Column(name = "password")
     private String password;
-    @Column(name = "address")
+//    @Column(name = "address")
     private String address;
 
     public UserDetails(int userId, UserDTO userDTO) {

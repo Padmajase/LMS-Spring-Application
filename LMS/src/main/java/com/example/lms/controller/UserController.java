@@ -16,7 +16,7 @@ import javax.servlet.http.HttpSession;
 import java.util.List;
 
 @RestController
-@SessionAttributes({"myOTP"})
+//@SessionAttributes({"myOTP"})
 public class UserController {
 
 

@@ -3,12 +3,12 @@ package com.example.lms.dto;
 import lombok.*;
 
 @Data
-@Setter
 @Getter
+@Setter
 @AllArgsConstructor
 @NoArgsConstructor
-
-public class LoginDTO {
-    public String emailId;
-    public String password;
+@ToString
+public class LoginStatus {
+    private LoginDTO loginDTO;
+    private String mesage;
 }
